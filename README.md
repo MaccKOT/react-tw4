@@ -5,4 +5,7 @@ Original source code [github repo](https://github.com/monsterlessonsacademy/mons
 
 ---
 Added Tailwind 4.0
+
 Html blocks are placed in separate components
+
+Note: you need pre-release version of Tailwindcss VS Code extension for work with tailwindcss 4.0 beta.
