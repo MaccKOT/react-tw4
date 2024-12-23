@@ -4,7 +4,7 @@
 
 Original source code [github repo](https://github.com/monsterlessonsacademy/monsterlessonsacademy/tree/519-tailwind-landing-page)
 
-👀 Live Demo
+👀 [Live Demo](https://tailwind4landing.netlify.app/)
 
 ---
 
