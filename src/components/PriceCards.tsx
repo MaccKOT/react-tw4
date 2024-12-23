@@ -8,7 +8,7 @@ const PriceCards = () => {
                 <div className="lg:grid lg:grid-cols-3 xl:gap-10">
                     {CardPrices.map((card) => (
                         <Card
-                            cardname={card.cardName}
+                            cardName={card.cardName}
                             promo={card.promo}
                             price={card.price}
                             features={card.features}

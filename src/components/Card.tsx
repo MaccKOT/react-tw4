@@ -1,8 +1,10 @@
-const Card = ({ cardname, promo, price, features, url }) => {
+import { CardTypes } from "../data/CardTypes";
+
+const Card = ({ cardName, promo, price, features, url }: CardTypes) => {
     return (
         <div className="p-6 text-center text-gray-900 bg-white border border-gray-100 ronded-lg shadow xl:p-8 mx-auto max-w-lg">
             <h3 className="mb-4 text-2xl font-semibold">
-                {cardname}
+                {cardName}
             </h3>
             <p className="text-gray-500 font-light">
                 {promo}

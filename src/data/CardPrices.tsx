@@ -1,12 +1,6 @@
-type Card = {
-    cardName: string;
-    promo: string;
-    price: number;
-    features: Array<string>;
-    url: string;
-};
+import { CardTypes } from "./CardTypes";
 
-const Prices: Array<Card> = [
+const Prices: Array<CardTypes> = [
     {
         cardName: "Starter",
         promo: "Best option for personal use & for your next project.",
