@@ -1,5 +1,5 @@
-import React from "react";
 import { useState } from "react";
+import Logo from "./Logo";
 
 const Header = () => {
     const [isMenuShown, setIsMenuShown] = useState<boolean>(false);
@@ -8,12 +8,7 @@ const Header = () => {
         <header className="fixed w-full bg-white">
             <nav className="py-2.5">
                 <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
-                    <a href="#" className="flex items-center">
-                        <img src="/logo.svg" className="h-6 mr-3 sm:h-9" />
-                        <span className="text-xl font-semibold">
-                            Landwind
-                        </span>
-                    </a>
+                    <Logo />
                     <button
                         className="lg:hidden"
                         onClick={() => setIsMenuShown(!isMenuShown)}
